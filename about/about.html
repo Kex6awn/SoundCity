@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About - SoundCity</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: white;
+    }
+    .navbar-dark .navbar-nav .nav-link.active {
+      color: #00e6ff;
+    }
+    .hero-section {
+      padding: 100px 15px 60px;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero-section span {
+      color: #00e6ff;
+    }
+    .feature-box {
+      background-color: #00e6ff;
+      color: #111;
+      border-radius: 10px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 20px rgba(0, 230, 255, 0.2);
+      position: relative;
+    }
+    .feature-box h4 {
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+    .feature-number {
+      font-size: 1.5rem;
+      font-weight: bold;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: #fff;
+      opacity: 0.3;
+    }
+    .feature-icon {
+      font-size: 3rem;
+      float: right;
+      margin-top: -30px;
+    }
+    .nav-btn {
+      background-color: #00e6ff;
+      color: black;
+      font-weight: bold;
+      border-radius: 30px;
+      padding: 6px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black px-3">
+    <a class="navbar-brand fw-bold" href="#">SoundCity</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">What’s SoundCity</a></li>
+        <li class="nav-item"><a class="nav-link" href="artist.html">For Artists</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <a href="#" class="btn nav-btn ms-3">Go Web Player</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-white">
+    <div class="container">
+      <h1>Bringing <span>everything music</span><br>from around the world to you.</h1>
+    </div>
+  </section>
+
+  <!-- Feature Sections -->
+  <section class="container pb-5">
+    
+    <div class="feature-box">
+      <div class="feature-number">01/</div>
+      <h4>Millions of Songs</h4>
+      <p>SoundCity is your go-to music streaming and download platform with access to over 100 million songs, videos, and artist content from around the world.</p>
+      <div class="feature-icon"><i class="bi bi-music-note-beamed"></i></div>
+    </div>
+
+    <div class="feature-box">
+      <div class="feature-number">02/</div>
+      <h4>For the Artists</h4>
+      <p>We support independent artists with tools to publish, promote, and monetize their content while connecting directly with their audience.</p>
+      <div class="feature-icon"><i class="bi bi-person-video2"></i></div>
+    </div>
+
+    <div class="feature-box">
+      <div class="feature-number">03/</div>
+      <h4>Streaming that Adapts to You</h4>
+      <p>Enjoy seamless playback, custom playlists, and personalized recommendations built around your taste and listening behavior.</p>
+      <div class="feature-icon"><i class="bi bi-headphones"></i></div>
+    </div>
+
+    <div class="feature-box">
+      <div class="feature-number">04/</div>
+      <h4>News, Charts & Trends</h4>
+      <p>Stay in the know with our built-in news hub, real-time charts, and trendspotting features to explore what’s hot globally and locally.</p>
+      <div class="feature-icon"><i class="bi bi-graph-up-arrow"></i></div>
+    </div>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

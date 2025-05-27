@@ -1,0 +1,131 @@
+/* General layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  border-right: 1px solid #333;
+}
+
+/* Carousel */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card img {
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Trending list */
+.trending-list {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.trend-row {
+  background-color: transparent;
+  padding: 15px 10px;
+  border-bottom: 1px solid #2d2d2d;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.trend-row:hover {
+  background-color: #1f1f1f;
+}
+
+.trend-img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+
+.trend-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+
+.trend-sub {
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+.action-icons i {
+  color: #bbb;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.action-icons i:hover {
+  color: #1db954;
+}
+
+
+/* Music Player */
+
+.now-playing-bar {
+  background-color: #000;
+  border-top: 1px solid #222;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  z-index: 999;
+  color: #fff;
+}
+
+.track-cover {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.track-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.track-artist {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.control-icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.play-button {
+  background-color: #00e6ff;
+  color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background-color: #00d4e3;
+}
+
+.now-playing-bar i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
